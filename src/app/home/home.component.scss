@@ -1,0 +1,38 @@
+.scanner-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+  background: rgb(228,239,233);
+  background: linear-gradient(207deg, rgba(228,239,233,1) 0%, rgba(147,165,207,1) 100%);
+
+  .scan-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+
+    label {
+      font-size: 1.5rem;
+    }
+
+    p-button button.p-button {
+      font-size: 1.5rem;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
